@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/phoenix_sprout
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/phoenix_sprout/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/lge/phoenix_sprout/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/lge/phoenix_sprout/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/lge/phoenix_sprout/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
@@ -28,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/phoenix_sprout/proprietary/vendor/etc/camera/bu24235_dl_program_phoenix_LGITAct_ICG1020S_rev3_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_phoenix_LGITAct_ICG1020S_rev3_S_data2.bin \
     vendor/lge/phoenix_sprout/proprietary/vendor/etc/camera/bu24235_dl_program_phoenix_LGITAct_ICG1020S_rev5_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_phoenix_LGITAct_ICG1020S_rev5_S_data1.bin \
     vendor/lge/phoenix_sprout/proprietary/vendor/etc/camera/bu24235_dl_program_phoenix_LGITAct_ICG1020S_rev5_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_phoenix_LGITAct_ICG1020S_rev5_S_data2.bin \
-    vendor/lge/phoenix_sprout/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/lge/phoenix_sprout/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/lge/phoenix_sprout/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/lge/phoenix_sprout/proprietary/vendor/etc/qdcm_calib_data_SW49410_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_SW49410_cmd_mode_dsc_dsi_panel.xml \
